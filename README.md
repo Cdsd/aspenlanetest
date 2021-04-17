@@ -1,62 +1,78 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## Laravel
 
-## About Laravel
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+This project uses the latest version of laravel(v.8).
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<h1>Laravel package used in this project</h1>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Laravel Passport
 
-## Learning Laravel
+The project use API passport to autorizate external applications to consume the API of user location, it uses Outh 2.0, which means that the external aplications are going to recive a token(public key) when the user is login and the external aplications can request the enpoints using the token(public key), Passport is going to compare the token(public key) with a private key and the externat aplications will get access to the resource
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## Laravel Jetstream
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-## Laravel Sponsors
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
 
-### Premium Partners
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/)**
-- **[OP.GG](https://op.gg)**
 
-## Contributing
+<strong>Aspelane Test</strong>
+<p>Steps to compile the porject</p>
+<p>1. Step: Prepare the resources</p>
+<p>Install a PHP Development Environment</p>
+<ul>
+    <li>If you have windows <a href="https://www.wampserver.com/en/">WAMP</a></li>
+    <li>If you have macos <a href="https://www.mamp.info/en/">LAMP</a></li>
+    <li>It works in any OS <a href="https://www.apachefriends.org/en/index.html">XAMP</a></li>
+</ul>
+<span>Last option is recomended<span>
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+<p>2. Step: Prepare the database </p>
+<p>Run the PHP Development Environment downloaded</p>
+<p>Create a database in your phpmyadmin, go to <a href="localhost">localhost</a> on the browser and find the phpmyadmin option</p>
+<p>In phpmyadmin create a database, remember this database name. Next, create a username and password with all priviliges, remember those data too</p>
+<p>Once we have all these data, continue with the next step</p>
 
-## Code of Conduct
+<p>3. Step: Clon the repository </p>
+<p>Go to the public folder of the PHP development environment; it can be founded with the names "htdocs" or "www" depend of the PHP development environment that was dowloaded</p>
+<p>Now dowload the project in the folder,go to <a href="https://github.com/Cdsd/aspenlanetes">Repository</a></p>
+<p>Select just one of these options</p>
+<ul>
+    <li>Clone with the terminal, use this comand <code>git clone https://github.com/Cdsd/aspenlanetes</code></li>
+    <li>Download the project directly from the repository, extract the ZIP file and put into your public folder</li>
+</ul>
+<p>4. Step: Prepare the project </p>
+<p>Open the terminal and go to the public folder PHP development enviorment</p>
+<p>Run the comand: <code>cp .env.example .env</code></p>
+<p>Go to you public folder PHP development enviorment and open the .env file, it can be opened with your word processor</p>
+<p>Remember the data that you storage, put in the correspondet variables
+    <ul>
+        <li>DB_DATABASE=<code>[your_database_name]</code></li>
+        <li>DB_USERNAME=<code>[your_user_name]</code></li>
+        <li>DB_PASSWORD=<code>[your_user_password]</code></li>
+    </ul>
+<p>Run the comand: <code>php artisan migrate</code></p>
+<p>5. Step: Enjoy the project </p>
+<p>Go to yout browser, enter the url: <code>localhost://[name_folder]</code>, and enjoy it</p>
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+<h1>USAGE</h1>
+This project is an API and it is also a microaplication.
+The microaplication comsume the locations ENDPOINTS to storage locations
+With the API of user location, you can:
+<ul>
+    <li>Storage user location</li>
+    <li>See all the user locations</li>
+    <li>Find a specific user locations</li>
+</ul>
+The microapplication has a Front-end to a better user experience
+<ul>
+    <li>Login and log out</li>
+    <li>Chanage your email and name</li>
+    <li>Delete account</li>
+    <li>Storage location</li>
+    <li>See the user locations</li>
+</ul>
+        
