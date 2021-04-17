@@ -1,0 +1,14 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+#form_container,#user_locations{
+    width: 500px;
+    max-width: 500px;
+    min-width: 500px;
+}
+table tr th{
+    width: 150px;
+    text-align: left;
+}
