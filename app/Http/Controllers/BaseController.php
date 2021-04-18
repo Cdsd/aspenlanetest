@@ -28,7 +28,6 @@ class BaseController extends Controller
             'location_longitude' => $request->location_longitude,
             'user_id' => $user->id,
         ];
-        $actual_link = "http://" . $_SERVER[HTTP_HOST] . $_SERVER[REQUEST_URI];
         $response = Http::withHeaders([
             'Accept' => 'application/json',
             'Authorization' => 'Bearer '. $token,
