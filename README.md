@@ -33,7 +33,7 @@ In this project we used inertia, because we can use vue.js with Inertia in a eas
 
 <p>2. Step: Prepare the database </p>
 <p>Run the PHP Development Environment downloaded</p>
-<p>Create a database in your phpmyadmin, go to <a href="localhost">localhost</a> on the browser and find the phpmyadmin option</p>
+<p>Create a database in your phpmyadmin, go to <a href="http://localhost">localhost</a> on the browser and find the phpmyadmin option</p>
 <p>In phpmyadmin create a database, remember this database name. Next, create a username and password with all priviliges, remember those data too</p>
 <p>Once we have all these data, continue with the next step</p>
 
