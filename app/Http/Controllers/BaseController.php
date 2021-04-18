@@ -28,10 +28,11 @@ class BaseController extends Controller
             'location_longitude' => $request->location_longitude,
             'user_id' => $user->id,
         ];
+        $actual_link = "http://" . $_SERVER[HTTP_HOST] . $_SERVER[REQUEST_URI];
         $response = Http::withHeaders([
             'Accept' => 'application/json',
             'Authorization' => 'Bearer '. $token,
-        ])->post(env("APP_URL") . "api/location",$parameters);
+        ])->post($aactual_link . "/api/location",$parameters);
         if($response["status"]){
             return redirect('/')->with('message', 'Location Add Successfully.');
         }else{
