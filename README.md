@@ -52,7 +52,7 @@ In this project we used inertia, because we can use vue.js with Inertia in a eas
 <p>Run the comand: <code>php artisan migrate</code></p>
 <p>Run the comand: <code>php artisan passport:install</code></p>
 <p>5. Step: Enjoy the project </p>
-<p>Go to yout browser, enter the url: <a href="http://localhost/aspenlanetest">Aspenlane User Location</a>, and enjoy it</p>
+<p>Go to yout browser, enter the url: <a href="http://localhost/aspenlanetest/public">Aspenlane User Location</a>, and enjoy it</p>
 
 <h1>USAGE</h1>
 This project is an API and it is also a microaplication.
