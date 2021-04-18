@@ -42,7 +42,7 @@ In this project we used inertia, because we can use vue.js with Inertia in a eas
 <p>Now dowload the project in the folder,go to <a href="https://github.com/Cdsd/aspenlanetes" target="_blank">Repository</a></p>
 <p>Select just one of these options</p>
 <ul>
-    <li>Clone with the terminal, use this comand <code>git clone https://github.com/Cdsd/aspenlanetes</code></li>
+    <li>Clone with the terminal, use this comand <code>git clone https://github.com/Cdsd/aspenlanetest.git</code></li>
     <li>Download the project directly from the repository, extract the ZIP file and put into your public folder</li>
 </ul>
 <p>4. Step: Prepare the project </p>
