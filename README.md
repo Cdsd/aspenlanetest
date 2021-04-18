@@ -51,6 +51,12 @@ In this project we used inertia, because we can use vue.js with Inertia in a eas
 <p>Run the comand: <code>php composer.phar install</code></p>
 <p>Run the comand: <code>php artisan migrate</code></p>
 <p>Run the comand: <code>php artisan passport:install</code></p>
+<p>Give permisions to the nex folder</p>
+<ul>
+    <li>./storage: 777 permisions</li>
+    <li>./bootstrap/cache/: 777 permisions</li>
+</ul>
+
 <p>5. Step: Enjoy the project </p>
 <p>Go to yout browser, enter the url: <a href="http://localhost/aspenlanetest/public">Aspenlane User Location</a>, and enjoy it</p>
 
