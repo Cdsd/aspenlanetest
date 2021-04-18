@@ -6,7 +6,7 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 This project uses the latest version of laravel(v.8).
 
-<h1>Laravel package used in this project</h1>
+<h1>Laravel's packages used in this project</h1>
 
 ## Laravel Passport
 
@@ -14,7 +14,8 @@ The project use API passport to autorizate external applications to consume the 
 
 ## Laravel Jetstream
 
-
+It is a start kit that provides differents feautures to implement in the project, with Jetstream you can select two front end stacks: Livewire and Inertia.js.
+In this project we used inertia, because we can use vue.js with Inertia in a easy way
 
 
 
@@ -75,4 +76,48 @@ The microapplication has a Front-end to a better user experience
     <li>Storage location</li>
     <li>See the user locations</li>
 </ul>
+
+
+<h2>API Usage</h2>
+<p>ENDPOINTS</p>
+<hr>
+<p>GET</p>
+<p>/api/locations</p>
+<p>Get all the user locations</p>
+<hr>
+<p>GET</p>
+<p>/api/location/{id_location}</p>
+<p>Get a location </p>
+<hr>
+<p>POST</p>
+<p>/api/location</p>
+<p>Request body parameter</p>
+<ul>
+    <li>location_latitud: required - numeric</li>
+    <li>location_longitude: required - numeric</li>
+    <li>user_id : required - integer</li>
+</ul>
+<p>Header parameter</p>
+<ul>
+    <li>Authorization : 'Bearer ' + Token</li>
+</ul>
+<hr>
+<p>POST</p>
+<p>/api/login</p>
+<p>Request body parameter</p>
+<ul>
+    <li>email: required </li>
+    <li>password: required </li>
+</ul>
+<hr>
+<p>POST</p>
+<p>/api/register</p>
+<p>Request body parameter</p>
+<ul>
+    <li>name: required </li>
+    <li>email: required </li>
+    <li>password: required </li>
+</ul>
+
+
         
