@@ -34,7 +34,7 @@ In this project we used inertia, because we can use vue.js with Inertia in a eas
 <p>2. Step: Prepare the database </p>
 <p>Run the PHP Development Environment downloaded</p>
 <p>Create a database in your phpmyadmin, go to <a href="http://localhost" target="_blank">localhost</a> on the browser and find the phpmyadmin option</p>
-<p>In phpmyadmin create a database, remember this database name.</p>
+<p>In phpmyadmin create a database called "test"</p>
 <p>Once we have all these data, continue with the next step</p>
 
 <p>3. Step: Clon the repository </p>
@@ -48,11 +48,6 @@ In this project we used inertia, because we can use vue.js with Inertia in a eas
 <p>4. Step: Prepare the project </p>
 <p>Open the terminal and go to the public folder PHP development enviorment</p>
 <p>Run the comand: <code>cp .env.example .env</code></p>
-<p>Go to you public folder PHP development enviorment and open the .env file, it can be opened with your word processor</p>
-<p>Remember the name of your database, add in the next variable
-    <ul>
-        <li>DB_DATABASE=<code>[your_database_name]</code></li>
-    </ul>
 <p>Run the comand: <code>php composer.phar install</code></p>
 <p>Run the comand: <code>php artisan migrate</code></p>
 <p>5. Step: Enjoy the project </p>
