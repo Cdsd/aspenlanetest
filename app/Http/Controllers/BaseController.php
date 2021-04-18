@@ -28,7 +28,7 @@ class BaseController extends Controller
             'location_longitude' => $request->location_longitude,
             'user_id' => $user->id,
         ];
-        $path = str_replace ("/pubic/location/create" , "" , $request->url() );
+        $path = str_replace ("/location/create" , "" , $request->url() );
         $response = Http::withHeaders([
             'Accept' => 'application/json',
             'Authorization' => 'Bearer '. $token,
