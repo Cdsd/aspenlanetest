@@ -18,7 +18,7 @@
         @routes
         <script src="{{ asset('js/app.js') }}" defer></script>
     </head>
-    <body class="font-sans antialiased">
+    <body class="font-sans antialiased" style="background-image: url('/img/earth.jpg');">
         @inertia
     </body>
 </html>
