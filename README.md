@@ -52,12 +52,11 @@ In this project we used inertia, because we can use vue.js with Inertia in a eas
 <p>Remember the data that you storage, put in the correspondet variables
     <ul>
         <li>DB_DATABASE=<code>[your_database_name]</code></li>
-        <li>DB_USERNAME=<code>[your_user_name]</code></li>
-        <li>DB_PASSWORD=<code>[your_user_password]</code></li>
     </ul>
+<p>Run the comand: <code>php composer.phar install</code></p>
 <p>Run the comand: <code>php artisan migrate</code></p>
 <p>5. Step: Enjoy the project </p>
-<p>Go to yout browser, enter the url: <code>localhost://[name_folder]</code>, and enjoy it</p>
+<p>Go to yout browser, enter the url: <code>http://localhost://aspenalanetest</code>, and enjoy it</p>
 
 <h1>USAGE</h1>
 This project is an API and it is also a microaplication.
