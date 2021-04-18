@@ -25,8 +25,8 @@ class LocationController extends Controller
     public function store(Request $request)
     {
         Validator::make($request->all(), [
-            'location_latitud' => ['required', 'string', 'max:255'],
-            'location_longitude' => ['required', 'string', 'max:255'],
+            'location_latitud' => ['required', 'numeric', 'max:255'],
+            'location_longitude' => ['required', 'numeric', 'max:255'],
         ])->validate();
  
         $location = New Location();
