@@ -25,21 +25,21 @@ In this project we used inertia, because we can use vue.js with Inertia in a eas
 <p>1. Step: Prepare the resources</p>
 <p>Install a PHP Development Environment</p>
 <ul>
-    <li>If you have windows <a href="https://www.wampserver.com/en/">WAMP</a></li>
-    <li>If you have macos <a href="https://www.mamp.info/en/">LAMP</a></li>
-    <li>It works in any OS <a href="https://www.apachefriends.org/en/index.html">XAMP</a></li>
+    <li>If you have windows <a href="https://www.wampserver.com/en/" target="_blank">WAMP</a></li>
+    <li>If you have macos <a href="https://www.mamp.info/en/" target="_blank">LAMP</a></li>
+    <li>It works in any OS <a href="https://www.apachefriends.org/en/index.html" target="_blank">XAMP</a></li>
 </ul>
 <span>Last option is recomended<span>
 
 <p>2. Step: Prepare the database </p>
 <p>Run the PHP Development Environment downloaded</p>
-<p>Create a database in your phpmyadmin, go to <a href="http://localhost">localhost</a> on the browser and find the phpmyadmin option</p>
+<p>Create a database in your phpmyadmin, go to <a href="http://localhost" target="_blank">localhost</a> on the browser and find the phpmyadmin option</p>
 <p>In phpmyadmin create a database, remember this database name. Next, create a username and password with all priviliges, remember those data too</p>
 <p>Once we have all these data, continue with the next step</p>
 
 <p>3. Step: Clon the repository </p>
 <p>Go to the public folder of the PHP development environment; it can be founded with the names "htdocs" or "www" depend of the PHP development environment that was dowloaded</p>
-<p>Now dowload the project in the folder,go to <a href="https://github.com/Cdsd/aspenlanetes">Repository</a></p>
+<p>Now dowload the project in the folder,go to <a href="https://github.com/Cdsd/aspenlanetes" target="_blank">Repository</a></p>
 <p>Select just one of these options</p>
 <ul>
     <li>Clone with the terminal, use this comand <code>git clone https://github.com/Cdsd/aspenlanetes</code></li>
