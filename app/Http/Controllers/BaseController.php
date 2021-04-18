@@ -32,7 +32,7 @@ class BaseController extends Controller
         $response = Http::withHeaders([
             'Accept' => 'application/json',
             'Authorization' => 'Bearer '. $token,
-        ])->post($actual_link . "/api/location",$parameters);
+        ])->post(storage_path("/api/location"),$parameters);
         if($response["status"]){
             return redirect('/')->with('message', 'Location Add Successfully.');
         }else{
