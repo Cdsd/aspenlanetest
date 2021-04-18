@@ -28,10 +28,11 @@ class BaseController extends Controller
             'location_longitude' => $request->location_longitude,
             'user_id' => $user->id,
         ];
+        $path = str_replace ("/pubic/location/create" , "" , $request->url() );
         $response = Http::withHeaders([
             'Accept' => 'application/json',
             'Authorization' => 'Bearer '. $token,
-        ])->post(storage_path("/api/location"),$parameters);
+        ])->post($path. "/api/location",$parameters);
         if($response["status"]){
             return redirect('/')->with('message', 'Location Add Successfully.');
         }else{
